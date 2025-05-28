@@ -65,5 +65,7 @@ Automatización futura (CI/CD): Puedes conectar GitHub con DockerHub para actual
 Reemplazar la conexión con sockets por un API REST (Flask, FastAPI).<br>
 Agregar persistencia (base de datos) para registrar transacciones.<br>
 Implementar rotación de claves dinámicas cada X minutos. <br>
+
+Para revisar mas contenido puedes ir a la [Wiki](https://github.com/Silvy66/Dynamic_Token_system.wiki.git) <br>
 GitHub: @Silvy66
 
