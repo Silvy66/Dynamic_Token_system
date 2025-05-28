@@ -34,13 +34,14 @@ Asegúrate de tener lo siguiente instalado en tu máquina:
 - [Visual Studio Code (opcional)](https://code.visualstudio.com/)
 - Git (para clonar el repositorio)
   
-## Despliegue
+### 🚀 Despliegue
 -	Clona el repositorio [Repositorio](https://github.com/Silvy66/Dynamic_Token_system.git)
--	Ejecuta los servicios con Docker. El docker-compose.yml usa imágenes ya publicadas en Docker Hub: <br>
-Servidor: [servidor_dockerfile](https://hub.docker.com/repository/docker/silvy6/servidor_dockerfile/general) <br>
-Cliente: [cliente_dockerfile](https://hub.docker.com/repository/docker/silvy6/cliente_dockerfile/general)) <br>
+-	Ejecuta los servicios con Docker. El docker-compose.yml usa imágenes ya publicadas en Docker Hub:  <br>
+🐳 Servidor: [servidor_dockerfile](https://hub.docker.com/repository/docker/silvy6/servidor_dockerfile/general) <br>
+🐳 Cliente: [cliente_dockerfile](https://hub.docker.com/repository/docker/silvy6/cliente_dockerfile/general)) <br>
 -	➡️ Esto significa que las imágenes ya están preconstruidas y se descargan automáticamente desde el repositorio de Docker Hub, ejecutando en la terminal de tu IDE, el siguiente comando:
-  ### "docker compose up" <br>
+	<br> *"docker compose up"* <br>
+   
 -	➡️ En ese momento, Docker:
 Descarga las imágenes del servidor y cliente.<br>
 Crea los contenedores basados en esas imágenes. Los conecta a una red interna (secure_net) tipo bridge. <br>
