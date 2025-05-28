@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+  cliente:
+    image: silvy6/cliente_dockerfile
+    container_name: cliente
+    depends_on:
+      - servidor
+    networks:
+      - transaccion_net
+
+  servidor:
+    image: silvy6/servidor_dockerfile
+    container_name: servidor
+    ports:
+      - "5000:5000"
+    networks:
+      - transaccion_net
+
+networks:
+  transaccion_net:
+    driver: bridge
